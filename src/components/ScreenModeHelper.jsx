@@ -929,11 +929,11 @@ const ScreenModeHelper = ({
             break;
           case "browser": 
             iconName = "maximize"; 
-            modeLabel = "Full"; 
+            modeLabel = "Fullscreen"; 
             break;
           case "window": 
             iconName = "square"; 
-            modeLabel = "Win"; 
+            modeLabel = "Fullwindow"; 
             break;
           case "character": 
             iconName = "move"; 
@@ -974,9 +974,9 @@ const ScreenModeHelper = ({
             e.target.style.transform = 'translateY(0)';
           },
           style: { 
-            minWidth: "44px", 
+            minWidth: "64px", 
             height: "44px", 
-            padding: "0", 
+            padding: "0 4px", 
             cursor: "pointer", 
             backgroundColor: finalButtonBg,
             color: buttonColor, 
