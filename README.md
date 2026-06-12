@@ -67,11 +67,11 @@ The package exposes the following compiled files:
 | File | Description |
 | :--- | :--- |
 | **[VIEWS CONTROL.md](VIEWS%20CONTROL.md)** | The main loader query designed to be opened in any Obsidian workspace tab. |
-| **[_RESOURCES/DATACORE/_DONE/ViewsControl/src/index.jsx](_RESOURCES/DATACORE/_DONE/ViewsControl/src/index.jsx)** | Main lifecycle loader. |
-| **[_RESOURCES/DATACORE/_DONE/ViewsControl/src/App.jsx](_RESOURCES/DATACORE/_DONE/ViewsControl/src/App.jsx)** | React layout orchestrator hosting the WebGL engine and controller event loops. |
-| **[_RESOURCES/DATACORE/_DONE/ViewsControl/src/components/ScreenModeHelper.jsx](_RESOURCES/DATACORE/_DONE/ViewsControl/src/components/ScreenModeHelper.jsx)** | Handles display state transitions, reparenting logic, and Electron APIs. |
-| **[METADATA.md](_RESOURCES/DATACORE/_DONE/ViewsControl/METADATA.md)** | Packaging manifest outlining taxonomy and asset locations. |
-| **[README.md](_RESOURCES/DATACORE/_DONE/ViewsControl/README.md)** | Comprehensive premium user documentation. |
+| **[src/index.jsx](src/index.jsx)** | Main lifecycle loader. |
+| **[src/App.jsx](src/App.jsx)** | React layout orchestrator hosting the WebGL engine and controller event loops. |
+| **[src/components/ScreenModeHelper.jsx](src/components/ScreenModeHelper.jsx)** | Handles display state transitions, reparenting logic, and Electron APIs. |
+| **[METADATA.md](METADATA.md)** | Packaging manifest outlining taxonomy and asset locations. |
+| **[README.md](README.md)** | Comprehensive premium user documentation. |
 | **[assets/image/preview_1.webp](assets/image/preview_1.webp)** | High-fidelity static preview image of the component. |
 | **[assets/videos/preview.gif](assets/videos/preview.gif)** | Lanczos-compressed walkthrough loop walkthrough GIF. |
 
