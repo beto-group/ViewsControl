@@ -29,7 +29,7 @@ network: External
 runtime: PureJS
 entry_point: VIEWS CONTROL.md
 logic: src/index.jsx
-contributors: []
+contributor: []
 ---
 
 This file contains the machine-readable packaging manifest and indexing properties for this component.

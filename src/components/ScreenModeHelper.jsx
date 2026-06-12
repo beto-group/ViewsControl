@@ -132,7 +132,7 @@ function setupPipDrag(container) {
   });
   
   const titleSpan = document.createElement("span");
-  titleSpan.textContent = '🎮 BABYLON WORLD';
+  titleSpan.textContent = 'BABYLON WORLD';
   titleSpan.style.cssText = 'flex: 1; text-align: center; letter-spacing: 0.5px; margin: 0 8px;';
   
   const dragIndicator = document.createElement("span");
@@ -323,7 +323,7 @@ async function createExternalWindow(canvasRef, containerRef) {
       height: 800,
       minWidth: 700,
       minHeight: 500,
-      title: '✨ 3D World - External View',
+      title: '3D World - External View',
       backgroundColor: '#0D0D1A',
       frame: isMac ? false : true,
       titleBarStyle: isMac ? 'hiddenInset' : 'default',
@@ -340,7 +340,7 @@ async function createExternalWindow(canvasRef, containerRef) {
     const htmlContent = `<!DOCTYPE html>
 <html>
 <head>
-  <title>✨ 3D World - External View</title>
+  <title>3D World - External View</title>
   <meta charset="UTF-8">
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
@@ -454,7 +454,7 @@ async function createExternalWindow(canvasRef, containerRef) {
   <script src="https://cdn.babylonjs.com/babylon.js"></script>
 </head>
 <body>
-  <div id="custom-titlebar"><div id="window-title">✨ 3D WORLD - EXTERNAL VIEW</div></div>
+  <div id="custom-titlebar"><div id="window-title">3D WORLD - EXTERNAL VIEW</div></div>
   <div id="canvas-wrapper">
     <canvas id="renderCanvas"></canvas>
     
@@ -596,7 +596,7 @@ async function createExternalWindow(canvasRef, containerRef) {
     
     externalWindow.once('ready-to-show', () => {
       externalWindow.show();
-      if (typeof Notice !== 'undefined') new Notice("✨ External window opened!", 3000);
+      if (typeof Notice !== 'undefined') new Notice("External window opened!", 3000);
     });
     
     externalWindow.on('closed', () => {
