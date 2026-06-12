@@ -17,8 +17,8 @@ repository:
   - https://github.com/beto-group/ViewsControl
 missing: []
 resources:
-  - assets/views_control.webp
-  - assets/viewscontrol.clip.gif
+  - assets/image/preview_1.webp
+  - assets/videos/preview.gif
 type: DatacoreComponent
 target: Datacore
 security:

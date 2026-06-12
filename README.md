@@ -19,7 +19,7 @@
   <hr>
 </div>
 
-<img src="assets/viewscontrol.clip.gif" alt="Views Control Walkthrough" width="100%">
+<img src="assets/videos/preview.gif" alt="Views Control Walkthrough" width="100%">
 
 <div align="center">
   <p>
@@ -70,10 +70,10 @@ The package exposes the following compiled files:
 | **[_RESOURCES/DATACORE/_DONE/ViewsControl/src/index.jsx](_RESOURCES/DATACORE/_DONE/ViewsControl/src/index.jsx)** | Main lifecycle loader. |
 | **[_RESOURCES/DATACORE/_DONE/ViewsControl/src/App.jsx](_RESOURCES/DATACORE/_DONE/ViewsControl/src/App.jsx)** | React layout orchestrator hosting the WebGL engine and controller event loops. |
 | **[_RESOURCES/DATACORE/_DONE/ViewsControl/src/components/ScreenModeHelper.jsx](_RESOURCES/DATACORE/_DONE/ViewsControl/src/components/ScreenModeHelper.jsx)** | Handles display state transitions, reparenting logic, and Electron APIs. |
-| **[_RESOURCES/DATACORE/_DONE/ViewsControl/METADATA.md](_RESOURCES/DATACORE/_DONE/ViewsControl/METADATA.md)** | Packaging manifest outlining taxonomy and asset locations. |
-| **[_RESOURCES/DATACORE/_DONE/ViewsControl/README.md](_RESOURCES/DATACORE/_DONE/ViewsControl/README.md)** | Comprehensive premium user documentation. |
-| **[assets/views_control.webp](assets/views_control.webp)** | High-fidelity static preview image of the component. |
-| **[assets/viewscontrol.clip.gif](assets/viewscontrol.clip.gif)** | Lanczos-compressed walkthrough loop walkthrough GIF. |
+| **[METADATA.md](_RESOURCES/DATACORE/_DONE/ViewsControl/METADATA.md)** | Packaging manifest outlining taxonomy and asset locations. |
+| **[README.md](_RESOURCES/DATACORE/_DONE/ViewsControl/README.md)** | Comprehensive premium user documentation. |
+| **[assets/image/preview_1.webp](assets/image/preview_1.webp)** | High-fidelity static preview image of the component. |
+| **[assets/videos/preview.gif](assets/videos/preview.gif)** | Lanczos-compressed walkthrough loop walkthrough GIF. |
 
 ---
 
@@ -81,7 +81,7 @@ The package exposes the following compiled files:
 
 | Card Layout | Interactive 3D Explorer |
 | :---: | :---: |
-| ![Preview 1](assets/views_control.webp) | ![Walkthrough GIF](assets/viewscontrol.clip.gif) |
+| ![Preview 1](assets/image/preview_1.webp) | ![Walkthrough GIF](assets/videos/preview.gif) |
 
 ---
 
